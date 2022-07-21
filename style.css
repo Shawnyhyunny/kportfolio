@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100vw;
+    height: auto;
+    background-image: url(8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.95;
+}
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;    
+}
+
+h2 a{
+    font-family: 'Train One', cursive;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 1050px;
+}
+
+h2 a:hover{
+    color: white;
+    font-size: 28px;
+    text-decoration: solid;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    text-align: center;
+}
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+ul li{
+    display: inline-block;
+    margin: 35px;
+}
+
+.nav-menus{
+    color: white;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li a:hover{
+    color: greenyellow;
+    font-size: 20px;
+    text-decoration: underline;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    text-align: center;
+}
+
+.dashboard{
+    position: absolute;
+    left: 60%;
+    top: 77%;
+    transform: translate(-50%,-50%);
+    color: black;
+    text-align: center;
+
+}
+
+.name{
+    display: inline-block;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    display: flex;
+}
+
+.S {
+    margin-right: 10px;
+}
+
+.S:hover{
+    color: white;
+    text-decoration: solid;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    text-align: center;
+    transform: translate(0px, -40px);
+}
+
+
+.P:hover{
+    color: white;
+    text-decoration: solid;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    text-align: center;
+    transform: translate(0px, -40px);
+    
+}
+
+.intro{
+    display: inline;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    display: flex;
+    text-decoration: none;
+}
+
+.Penn{
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.Penn:hover{
+    color: blue;
+    text-decoration: solid;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    text-align: center;
+    transform: translate(0px, -40px);
+}
+
+.main_image{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 100px;
+    position: absolute;
+    transform: translate(-65%,-50%);
+    margin-bottom: 100px;
+    left: 33.5%;
+    top: 73%;
+}
+
+#Flag{
+    margin-right: 20px;
+}
+
+/*.main_image:hover{
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    transform: translate(0px, -40px);
+}*/
+
+.footer{
+    font-family:'Montserrat', sans-serif;
+    display: inline;
+    text-align: center;
+    margin-top: 965px;
+    margin-bottom: 5px;
+}
+
+.contact:hover{
+    font-size: 20px;
+    color: white;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+    text-decoration: underline;
+}
+
+#icon{
+    margin: 25px;
+}
+
+#insta {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#iconinfo{
+    position: relative;
+    color: white;
+    opacity: 0;
+    text-decoration: none;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 570px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#icon:hover #iconinfo{
+    opacity: 1;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+}
+
+#instainfo{
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+#instaid, #linkedinid, #emialadd{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
